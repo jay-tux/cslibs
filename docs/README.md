@@ -5,4 +5,4 @@
 *No libraries currently in the repository.*
 
 ## Tool documentation
- - csprojgen: A command-line tool to quickly generate simple *.csproj files; [Documentation](../tools/csprojgen.md)
+ - csprojgen: A command-line tool to quickly generate simple *.csproj files; [Documentation](../../../blob/docs/docs/tools/csprojgen.md)
