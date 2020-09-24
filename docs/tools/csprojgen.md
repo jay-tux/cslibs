@@ -25,5 +25,5 @@ csprojgen [outfile] [switches]
         <AssemblyName>{name}</AssemblyName>
     </PropertyGroup>
 </Project>
-```,  
+```  
 in which each value within curly braces is replaced by the corresponding switch value or default value.
