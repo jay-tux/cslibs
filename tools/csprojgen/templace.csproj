@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>%OUTPUT%</OutputType>
+        <TargetFramework>%TARGET%</TargetFramework>
+        <AssemblyName>%NAME%</AssemblyName>
+        <OutputPath>%OUT%</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="*.cs" />
+    </ItemGroup>
+
+    <Target Name="Build">
+        <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />
+        <Csc Source="@(Compile)" OutputAssembly="%ASSEMBLY%" />
+    </Target>
+</Project>
