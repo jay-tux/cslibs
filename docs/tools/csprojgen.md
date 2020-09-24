@@ -17,7 +17,7 @@ csprojgen [outfile] [switches]
 
 **Final Output**  
 `csprojgen` writes the csproj data directly to the specified file.  
-``xml
+```
 <Project Sdk="{sdk}">
     <PropertyGroup>
         <OutputType>{out}</OutputType>
@@ -25,5 +25,5 @@ csprojgen [outfile] [switches]
         <AssemblyName>{name}</AssemblyName>
     </PropertyGroup>
 </Project>
-``,  
+```,  
 in which each value within curly braces is replaced by the corresponding switch value or default value.
