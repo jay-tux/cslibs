@@ -2,9 +2,9 @@
 ### A command-line tool to quickly generate simple *.csproj files.
 
 **Usage:**  
-``sh
+```bash
 csprojgen [outfile] [switches]
-``  
+```  
 *Arguments*  
  - `[outfile]`: the output file to write to.  
  If left blank, `{directory name}.csproj` is used.  
@@ -17,7 +17,7 @@ csprojgen [outfile] [switches]
 
 **Final Output**  
 `csprojgen` writes the csproj data directly to the specified file.  
-```
+```xml
 <Project Sdk="{sdk}">
     <PropertyGroup>
         <OutputType>{out}</OutputType>
