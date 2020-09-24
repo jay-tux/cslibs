@@ -9,9 +9,9 @@ Documentation is found in the `docs/` tree, however, you may have to move to the
 
 Current libraries (namespaces) available, with a short description:  
  - `Jay`: the base namespace for all libraries (and tools).  
-   - `Jay.Config`: a namespace containing configuration tools, see [Jay.Config](../../../blob/docs/docs/Jay/Config.md).  
+   - `Jay.Config`: a namespace containing configuration tools, see [Jay.Config](../../blob/docs/docs/Jay/Config.md).  
    - `Jay.IO`: a namespace containing input/output stuff, both via screen (stdout, stdin, ...) and via files.  
-     - `Jay.IO.Logging`: a namespace containing loggers and their base interfaces, see [Jay.IO.Logging](../../../blob/docs/docs/Jay/IO/Logging.md).  
+     - `Jay.IO.Logging`: a namespace containing loggers and their base interfaces, see [Jay.IO.Logging](../../blob/docs/docs/Jay/IO/Logging.md).  
 
 ## Associated tools
 The tool scripts and executables are split over the `src/tools/` and `tools/` directory trees:  
@@ -20,4 +20,4 @@ The tool scripts and executables are split over the `src/tools/` and `tools/` di
 Documentation is found in the `docs/` tree, however, you may have to move to the docs branch since it's not always synced up (the links in this file redirect to that branch).  
 
 Current tools available, with a short description:
- - `gencsproj`: A command-line tool to quickly generate simple *.csproj files; see [gencsproj](../../../blob/docs/docs/tools/csprojgen.md)
+ - `gencsproj`: A command-line tool to quickly generate simple *.csproj files; see [gencsproj](../../blob/docs/docs/tools/csprojgen.md)
