@@ -1,2 +1,4 @@
 toolbuild/*
 */bin/*
+*/obj/*
+altcomp
