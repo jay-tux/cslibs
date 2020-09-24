@@ -3,5 +3,5 @@
         <OutputType>Exe</OutputType>
         <TargetFramework>netcoreapp3.1</TargetFramework>
         <AssemblyName>csprojgen</AssemblyName>
-        <OutputPath>../../../toolbuild/</OutputPath>
+    </PropertyGroup>
 </Project>
